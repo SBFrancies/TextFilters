@@ -71,7 +71,7 @@ namespace TextFilters.Service
             return sb.ToString();
         }
 
-        private void AppendWord(string word, StringBuilder stringBuidler)
+        private void AppendWord(string word, StringBuilder stringBuilder)
         {
             var filterWord = false;
 
@@ -86,7 +86,7 @@ namespace TextFilters.Service
 
             if (!filterWord)
             {
-                stringBuidler.Append(word);
+                stringBuilder.Append(word);
             }
         }
     }
