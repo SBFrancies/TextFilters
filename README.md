@@ -33,7 +33,7 @@ This project contains the unit tests.
 
 2) Only the English script upercase and lower case characters (a-z and A-Z) as well as apostrophes and hyphens are considered to be valid word characters. Apostrphes and hyphens cannot start or end a word. Other scripts, accents, emojis, etc will not work.
 
-3) Why not use Regex? I am fairly sure that it would be possible to convert this application into a single regex. However that would be very hard to read an even harder to maintain. A regex could be used to identify the words rather than stepping through each character, an alternative aproach which I originally considered.
+3) Why not use Regex? I am fairly sure that it would be possible to convert this application into a single regex. However that would be very hard to read and even harder to maintain. A regex could be used to identify the words rather than stepping through each character, an alternative aproach which I originally considered.
 
 4) Why not clean double spaces after removing the words between them? It was not specified to remove anything other than the filtered words.
 
