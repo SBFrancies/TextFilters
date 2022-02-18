@@ -78,6 +78,7 @@ she   and    . She      one   shelves  she passed;
         [InlineData("TEST", "")]
         [InlineData("'TEST' you're", "'' ")]
         [InlineData("'TEST' you're once as a", "''  once  ")]
+        [InlineData("'TEST'''' you''re once as a", "''''' '' once  ")]
         public async Task TextProcessorService_ProcessTextAsync_FurtherTestCases(string input, string output)
         {
             var filePath = "C:/test/test.txt";
